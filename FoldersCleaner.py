@@ -48,7 +48,8 @@ if __name__ == '__main__':
 
     otherExt = [file for file in files if file not in jpg and file not in png and file not in html and file not in js and file not in pdf and os.path.isfile(file)]
     # print(otherExt)
-
+    
+    # ---------------------Function call for moving folder---------------------------
     move("Jpg Files",jpg)
     move("Png Files",png)
     move("HTML Files", html)
